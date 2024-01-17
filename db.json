@@ -1,0 +1,51 @@
+{
+  "people": [
+    {
+      "name": "Jane Doe",
+      "phone": "0505055500",
+      "email": "jane@abc.com",
+      "comment": "Test comment",
+      "id": 1
+    },
+    {
+      "name": "Paul",
+      "phone": "5878373382",
+      "email": "awd@c.com",
+      "comment": "How r u?",
+      "id": 4
+    },
+    {
+      "name": "Mango",
+      "phone": "911",
+      "email": "mango@mail.com",
+      "comment": "Help me pls",
+      "id": 5
+    }
+  ],
+  "book": [
+    {
+      "name": "Walk Like an Egyptian",
+      "author": "Mrs. Denise Olson",
+      "titleImage": "https://loremflickr.com/640/480",
+      "price": "100.00",
+      "pointer": "200",
+      "id": "16"
+    },
+    {
+      "name": "Don't Stop 'Til You Get Enough",
+      "author": "Kristen Larson",
+      "titleImage": "https://loremflickr.com/640/480",
+      "price": "609.00",
+      "pointer": "12",
+      "id": "24"
+    },
+    {
+      "name": "I Feel Love",
+      "author": "Darin Beatty",
+      "titleImage": "https://loremflickr.com/640/480",
+      "price": "742.00",
+      "pointer": "80",
+      "id": "25"
+    }
+  ]
+}
