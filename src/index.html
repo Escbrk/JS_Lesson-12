@@ -6,39 +6,39 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- Форма запиту -->
+    <!-- Форма запроса -->
     <form class="form-inline search-form">
       <div class="form-group mx-sm-3 mb-2">
-        <label for="searchQuery" class="sr-only">Що шукаємо?</label>
+        <label for="searchQuery" class="sr-only">What are you looking for?</label>
         <input
           type="text"
           class="form-control"
           name="query"
           id="searchQuery"
-          placeholder="Що шукаємо?"
+          placeholder="What are you looking for?"
           autocomplete="off"
         />
       </div>
-      <button type="submit" class="btn btn-primary mb-2">Шукати</button>
+      <button type="submit" class="btn btn-primary mb-2">Search</button>
     </form>
 
     <!-- Список статей -->
     <ul class="articles"></ul>
 
-    <!-- Кнопка завантажити ще -->
+    <!-- Кнопка загрузить еще -->
     <button
       type="button"
       class="btn btn-primary button is-hidden"
       data-action="load-more"
     >
-      <!-- Спінер -->
+      <!-- Спинер -->
       <span
         class="load-more-spinner spinner-border spinner-border-sm spinner is-hidden"
         role="status"
         aria-hidden="true"
       ></span>
 
-      <span class="label">Показати ще</span>
+      <span class="label">Show more</span>
     </button>
   </body>
 </html>

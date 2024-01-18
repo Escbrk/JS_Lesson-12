@@ -1,6 +1,20 @@
 import axios from 'axios';
 
-const api = axios.create();
+console.log(999)
+
+//* api key: abeb1fead2de446d8cf3c831a721e668
+
+const api = axios.create({
+  params: {
+    apiKey: 'abeb1fead2de446d8cf3c831a721e668',
+    // baseURL: 'https://qwe.com',
+    language: 'ru',
+  },
+});
+
+api.get('https://qweqwe.com');
+api.post('aqwew')
+fetch('https://newsapi.org/v2').then(console.log)
 
 const refs = {
   searchForm: document.querySelector('.search-form'),
@@ -26,7 +40,10 @@ function renderArticles(articles = []) {
 </li>
     `,
     ''
-    );
-    
-    refs.articlesContainer.insertAdjacentHTML('beforeend', markup)
+  );
+
+  refs.articlesContainer.insertAdjacentHTML('beforeend', markup);
 }
+
+//?============================
+console.log(123)

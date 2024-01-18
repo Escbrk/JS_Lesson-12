@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Escbrk.github.io/JS_Lesson-1",
+  "homepage": "https://Escbrk.github.io/JS_Lesson-12",
   "scripts": {
     "start": "parcel src/*.html --no-cache",
-    "build": "parcel build src/*.html --public-url /JS_Lesson-1/ --no-cache",
+    "build": "parcel build src/*.html --public-url /JS_Lesson-12/ --no-cache",
     "pregit": "git add .",
     "git": "git commit -m 'upd'",
     "postgit": "git push",
